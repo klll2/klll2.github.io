@@ -19,7 +19,7 @@
 lang: ko-KR, en-US
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title: Create my own Color YuMin Kim
+title: Create my Color YuMin Kim
 
 timezone: Asia/Seoul
 # A short description (~150 chars) of the page used for the meta description tag.
@@ -78,7 +78,7 @@ excerpt_separator: <!--more-->
 # Theme
 # ---------------------------------------------------------------------------------------
 
-# theme: jekyll-theme-hydejack
+theme: jekyll-theme-hydejack
 # remote_theme: hydecorp/hydejack@v9
 
 # Customization

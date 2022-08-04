@@ -1,11 +1,11 @@
 ---
 layout: post
-title: '[JavaScript] NodeList? HTMLCollection? 비슷한듯 다른 차이점'
-subtitle: '[JavaScript] NodeList? HTMLCollection? 비슷한듯 다른 차이점'
+title: "ex [JavaScript] NodeList? HTMLCollection? 비슷한듯 다른 차이점"
+subtitle: "[JavaScript] NodeList? HTMLCollection? 비슷한듯 다른 차이점"
 category: devlog
 tags: development javascript
 image:
-  path:    /assets/img/jslogo.jpeg
+  path: /assets/img/jslogo.jpeg
 ---
 
 초심자 입장에서 자바스크립트를 공부하다 보면 배열과 객체에 관련된 건 항상 헷갈리는 일이 많다.  
@@ -17,7 +17,7 @@ image:
 <!--more-->
 
 1. this ordered seed list will be replaced by the toc
-{:toc}
+   {:toc}
 
 ## 유사배열
 
@@ -26,8 +26,8 @@ JavaScript에서 DOM 조작하기 위해 흔히 쓰는 Document 메소드 중 �
 
 ```js
 // file: "DOM.js"
-const nodeList = document.querySelectorAll('.list');
-const htmlCollection = document.getElementByClassName('list');
+const nodeList = document.querySelectorAll(".list");
+const htmlCollection = document.getElementByClassName("list");
 ```
 
 우리가 자주 쓰는 Documnet 메소드 nodeList(위), htmlCollector(아래)를 반환한다.  

@@ -1,26 +1,25 @@
 ---
 layout: post
-title: '[CSS] Position: Sticky 가 잘 안될때'
-subtitle: '[CSS] Position: Sticky 가 잘 안될때'
+title: "ex [CSS] Position: Sticky 가 잘 안될때"
+subtitle: "[CSS] Position: Sticky 가 잘 안될때"
 category: devlog
 tags: tips css
 image:
-  path:    /assets/img/csslogo.jpg
+  path: /assets/img/csslogo.jpg
 ---
-[mdn 공식문서 - CSS Position]{:.note title="Link"}  
+
+[mdn 공식문서 - CSS Position]{:.note title="Link"}
 
 HTML을 마크업하고 CSS를 적용할 때 상단 NAV 메뉴바를 만들었고 스크롤을 내리면  
 내가 원하는 위치에서 멈추게 하고 싶을 때가 있다. 자바스크립트로도 구현이 가능하지만,  
 아주 간단하게 CSS로도 구현할 수 있다. 바로 `Sticky` 속성이다.
 
-[mdn 공식문서 - CSS Position]:https://developer.mozilla.org/ko/docs/Web/CSS/position
+[mdn 공식문서 - css position]: https://developer.mozilla.org/ko/docs/Web/CSS/position
 
 <!-- more -->
 
-1. this ordered seed list will be replaced by the toc 
-  {:toc}  
-
-
+1. this ordered seed list will be replaced by the toc
+   {:toc}
 
 ## 들어가기에 앞서
 
@@ -113,7 +112,4 @@ Sticky 속성이란 원하는 위치의 고정 위치 값을 정해주면 해당
 이번에는 바로 밑 자식은 `.ul-sticky` 클래스에 적용을 하였다.
 
 ![](https://user-images.githubusercontent.com/95746551/151111081-7c7bbb82-5b6f-4793-8627-0a814c133678.gif){: width="80%" height="80%"}{:.centered}아주아주 잘되는 모습이다.  
-{:.figcaption}  
-
-
-
+{:.figcaption}
