@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "re-template-tag": "^2.0.1",
+    "react-dom": "^18.2.0"
+  }
+}
