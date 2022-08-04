@@ -19,7 +19,7 @@
 lang: ko-KR, en-US
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title: Sunnyfterrain YuMin Kim
+title: Create my own Color YuMin Kim
 
 timezone: Asia/Seoul
 # A short description (~150 chars) of the page used for the meta description tag.
@@ -32,12 +32,12 @@ tagline: >
   꺼지지 않는 개발 등대💡
 
 # A list of keywords for your blog
-keywords: ["Development", "JavaScript", "React", "Jekyll"]
+keywords: ["Development", "JavaScript", "React", "Jekyll", "Japanese"]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo: /assets/img/me.png
+logo: /assets/img/me.jpg
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
@@ -64,7 +64,7 @@ author:
 #     url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright: © 2022.02 by sunnyfterrain
+copyright: © 2022.02 by devYuMinKim
 
 # Format of the permalinks
 # permalink:             /blog/:categories/:year-:month-:day-:title/
