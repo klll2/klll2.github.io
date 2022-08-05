@@ -8,9 +8,7 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about: |
-    연구하고 공부하는 것을 좋아하는 프론트엔드 개발자🧑‍💻<br>
-    개발하는것을 좋아하고 즐기며, 놀고먹고 하는 것도 좋아해요.🕺🏻<br>
-    항상 긍정적인 마인드, 스스로 성장하는 프론트엔드 개발자 입니다.🔥
+    프론트엔드 개발자🧑‍💻<br>
 
   # This photo will be used in the about section
   picture:
@@ -24,7 +22,7 @@ author1:
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
   social:
-    # twitter:         sunnyfterrain_
+    # twitter:
     instagram: yu._.min_k
     github: devYuMinKim
     email: gimyumin40@gmail.com

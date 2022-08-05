@@ -46,7 +46,7 @@ author:
   email: gimyumin40@gmail.com
   picture: /assets/img/me.jpg
   social:
-    # twitter: sunnyfterrain_
+    # twitter:
     instagram: yu._.min_k
     github: devYuMinKim
     email: gimyumin40@gmail.com
@@ -64,7 +64,7 @@ author:
 #     url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright: © 2022.02 by devYuMinKim
+# copyright: © 2022.02 by devYuMinKim
 
 # Format of the permalinks
 # permalink:             /blog/:categories/:year-:month-:day-:title/
