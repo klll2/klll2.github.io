@@ -2,10 +2,9 @@
 layout: list
 type: category
 title: Dev. Log
-slug: devlog
+slug: dev_log
 sidebar: true
 order: 3
 description: >
-  개발에 관련된, 개발에 관한 것들<br>
-  Anything about development.
+  내가 한 개발 공부<br>
 ---

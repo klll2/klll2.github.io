@@ -25,7 +25,7 @@ timezone: Asia/Seoul
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description: >
-  프론트엔드 개발자 김유민의 블로그 입니다.
+  반갑습니다. 개발자를 꿈꾸는 초보 대학생 개발자입니다.
 
 # A shorter description for the sidebar.
 tagline: >
@@ -85,7 +85,7 @@ excerpt_separator: <!--more-->
 # ----------------------------------------------------------------------------------------
 
 # Sidebar image and theme color of the site.
-accent_image: /assets/img/side-bg.jpg
+accent_image: /assets/img/side-bg2.jpg
 accent_color: rgb(38,139,210)
 
 # This is used for the `theme-color` meta tag,
@@ -452,14 +452,14 @@ jekyll_compose:
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: /assets/img/side-bg.jpg
+        path: /assets/img/side-bg1.jpg
     posts:
       layout: post
       description: >
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: /assets/img/side-bg.jpg
+        path: /assets/img/side-bg1.jpg
     projects:
       layout: project
       description: >
@@ -474,6 +474,6 @@ jekyll_compose:
 # jekyll-feed settings
 feed:
   categories:
-    - life
-    - devlog
-    - studylog
+    - dev_log
+    - Japanese_News
+    - Book_Reports
