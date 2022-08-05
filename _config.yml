@@ -29,7 +29,7 @@ description: >
 
 # A shorter description for the sidebar.
 tagline: >
-  꺼지지 않는 개발 등대💡
+  먼저 다가가는 개발자💡
 
 # A list of keywords for your blog
 keywords: ["Development", "JavaScript", "React", "Jekyll", "Japanese"]
@@ -78,7 +78,7 @@ excerpt_separator: <!--more-->
 # Theme
 # ---------------------------------------------------------------------------------------
 
-# theme: jekyll-theme-hydejack
+theme: jekyll-theme-hydejack
 # remote_theme: hydecorp/hydejack@v9
 
 # Customization

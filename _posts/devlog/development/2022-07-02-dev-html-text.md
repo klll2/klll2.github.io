@@ -49,7 +49,17 @@ tag: [HTML, zerobase, frontend]
 - 하나의 페이지에 하나의 <h1>만 사용한다.
   → 여러 개를 써도 오류는 나지 않지만, <h1>은 가장 중요한 제목이므로 전체 페이지의 목적을 드러내고 있다. 두 개의 제목을 가진 책 같은 느낌.
 
----
+```html
+<h1>Beetles</h1>
+<h2>External morphology</h2>
+<h3>Head</h3>
+<h4>Mouthparts</h4>
+<h3>Thorax</h3>
+<h4>Prothorax</h4>
+<h4>Pterothorax</h4>
+```
+
+![h1_h6](../../../assets/img/develop/2022-07-02-develop/h1_h6.png){: height="200"}
 
 ## 본문 - p
 
@@ -59,7 +69,19 @@ tag: [HTML, zerobase, frontend]
 - 빈 p 요소를 사용하여 문단 사이에 여백을 주면 안된다.
   → CSS로 여백 주는 것을 권장한다. (margin)
 
----
+```html
+<p>
+  Geckos are a group of usually small, usually nocturnal lizards. They are found
+  on every continent except Australia.
+</p>
+
+<p>
+  Some species live in houses where they hunt insects attracted by artificial
+  light.
+</p>
+```
+
+![p](../../../assets/img/develop/2022-07-02-develop/p.png)
 
 ## 본문 - br
 
@@ -68,7 +90,20 @@ tag: [HTML, zerobase, frontend]
 - 문단 사이에 여백을 두기 위한 용도로 <br>태그를 사용하면 안된다.
   → 대신 p 요소로 감싼 후, CSS의 margin 속성으로 여백 크기 조절한다.
 
----
+```html
+<p>
+  O’er all the hilltops<br />
+  Is quiet now,<br />
+  In all the treetops<br />
+  Hearest thou<br />
+  Hardly a breath;<br />
+  The birds are asleep in the trees:<br />
+  Wait, soon like these<br />
+  Thou too shalt rest.
+</p>
+```
+
+![b](../../../assets/img/develop/2022-07-02-develop/br.png)
 
 ## 본문 - blockquote, q
 
@@ -80,19 +115,53 @@ tag: [HTML, zerobase, frontend]
   - **p** 태그 사이에 사용하면 안된다.
     → **p** 태그 내부에 블록 속성의 자식 태그가 존재하면 자동으로 **blockquote** 앞에서 **p** 태그를 닫아버린다.
 
+  ```html
+  <figure>
+    <blockquote cite="https://www.huxley.net/bnw/four.html">
+      <p>
+        Words can be like X-rays, if you use them properly—they’ll go through
+        anything. You read and you’re pierced.
+      </p>
+    </blockquote>
+    <figcaption>—Aldous Huxley, <cite>Brave New World</cite></figcaption>
+  </figure>
+  ```
+
   ![blockquote](../../../assets/img/develop/2022-07-02-develop/blockquote.png)
 
 💡 **q : 인라인 인용문 요소**
 
 - 둘러싼 텍스트가 짧은 **인라인** 인용문이다.
   - 기본 스타일링으로 앞뒤로 “” 가 붙는다.
+    ```html
+    <q>이건 나는 게 아냐, 아주 멋있게 떨어지는 거지</q>
+    ```
     ![q.PNG](../../../assets/img/develop/2022-07-02-develop/q.png)
 
 💡 **공통**
 
 - **cite**: blockquote, q 공통 속성이다. 인용문의 출처 문서나 메시지를 가리키는 URL로 인용문의 맥락 혹은 출처 정보를 가리키는 용도로 사용된다.
 
----
+```html
+<figure>
+  <blockquote>
+    <p>
+      It was a bright cold day in April, and the clocks were striking thirteen.
+    </p>
+  </blockquote>
+  <figcaption>
+    First sentence in
+    <cite
+      ><a href="http://www.george-orwell.org/1984/0.html"
+        >Nineteen Eighty-Four</a
+      ></cite
+    >
+    by George Orwell (Part 1, Chapter 1).
+  </figcaption>
+</figure>
+```
+
+![cite](../../../assets/img/develop/2022-07-02-develop/cite.png)
 
 ## 본문 - pre
 
@@ -110,7 +179,7 @@ IIIII
 <p>IIIII</p>
 ```
 
-![pre](../../../assets/img/develop/2022-07-02-develop/pre2.png)
+![pre](../../../assets/img/develop/2022-07-02-develop/pre2.png){: width="100" height="100"}
 
 ---
 
@@ -121,7 +190,14 @@ IIIII
 - 독립적인 콘텐츠를 표현한다. **figcaption** 요소를 통해 설명(ex. 출처)을 붙일 수 있다.
 - 이미지, **pre** 태그, **blockquote** 태그, **p** 태그 모두 **내부 content**로 사용 가능하다.
 
----
+```html
+<figure>
+  <img src="../../../assets/img/jslogo.jpg" alt="JavaScript" />
+  <figcaption>This is JavaScript</figcaption>
+</figure>
+```
+
+![figure](../../../assets/img/jslogo.jpeg){: width="300"}
 
 ## 본문 - hr
 
@@ -130,7 +206,15 @@ IIIII
 - **hr** 요소는 이야기 장면 전환, 구획 내 주제 변경 등, 문단 레벨 요소에서 주제의 분리를 나타낸다. == 수평선
 - HTML 속성 말고 CSS로 스타일링하는 것을 권장한다.
 
----
+```html
+<p>§1: The first rule of Fight Club is: You do not talk about Fight Club.</p>
+
+<hr />
+
+<p>§2: The second rule of Fight Club is: Always bring cupcakes.</p>
+```
+
+![hr](../../../assets/img/develop/2022-07-02-develop/hr.png)
 
 ## 본문 - abbr, address, cite, bdo
 
@@ -145,14 +229,15 @@ IIIII
     <abbr title="Hyper Text Markup Language">HTML</abbr>
   </p>
   ```
-
-![출력](../../../assets/img/develop/2022-07-02-develop/abbr2.png)
+  ![abbr](../../../assets/img/develop/2022-07-02-develop/abbr2.png){: width="200"}
 
 💡 **address**
 
 - 주소(이메일 주소, 연락처 정보 등등)를 통칭하여 나타낼 때 사용한다.
+
   - 별도의 기능을 한다기보다, 내부 content가 주소라는 것을 나타낸다는 의미가 크다.
   - 내부 content의 텍스트가 기울어져 있는 것이 특징이다.
+
   ```html
   <address>
     You can contact author at
@@ -166,13 +251,16 @@ IIIII
     USA
   </address>
   ```
-  ![address](../../../assets/img/develop/2022-07-02-develop/address1.png)
+
+  ![address](../../../assets/img/develop/2022-07-02-develop/address1.png){: width="400"}
 
 💡 **cite**
 
 - 인용한다는 의미를 갖는다. 인용한 사이트의 출처를 나타낼 때 <cite> 태그로 묶어서 사용한다.
+
   - 내부 content의 텍스트가 기울어져 있는 것이 특징이다.
   - <blockquote> 태그의 속성으로도 사용할 수 있지만, 이러한 경우에는 cite 속성값이 출력되지는 않는다.
+
   ```html
   <figure>
     <blockquote>
@@ -188,17 +276,21 @@ IIIII
     </figcaption>
   </figure>
   ```
-  ![출력](../../../assets/img/develop/2022-07-02-develop/cite2.png)
+
+  ![cite](../../../assets/img/develop/2022-07-02-develop/cite2.png){:width="500"}
 
 💡 **bdo : 양방향 텍스트 재정의 요소**
 
 - bidirectional override의 약자. 텍스트를 반대 방향으로 출력하고 싶을 때 사용한다.
+
   - dir 속성에 값 넣어주기, rtl == right to left. ltr(== left to right) 값을 넣어주면 원래 방향으로 돌아옴(default 값)
+
   ```html
   <p>이 글은 왼쪽에서 오른쪽으로 작성합니다.</p>
   <p><bdo dir="rtl">이 글은 오른쪽에서 왼쪽으로 작성합니다.</bdo></p>
   ```
-  ![bdo](../../../assets/img/develop/2022-07-02-develop/bdo1.png)
+
+  ![bdo](../../../assets/img/develop/2022-07-02-develop/bdo.png){:width="400"}
 
 ---
 
@@ -237,7 +329,7 @@ IIIII
 </p>
 ```
 
-![i](../../../assets/img/develop/2022-07-02-develop/i2.png)
+![i](../../../assets/img/develop/2022-07-02-develop/i.png){:width="500"}
 
 → 이를 통해 Iron Man이 ‘철남자’ 가 아닌 고유 명사로서 **유저가 받아들이기 쉬워진다**.
 
@@ -256,7 +348,7 @@ IIIII
 </p>
 ```
 
-![mark2](../../../assets/img/develop/2022-07-02-develop/mark2.png)
+![mark](../../../assets/img/develop/2022-07-02-develop/mark.png){:width="500"}
 
 💡 **small : 덧붙임 글 요소**
 
@@ -276,13 +368,21 @@ IIIII
 </p>
 ```
 
-![small2](../../../assets/img/develop/2022-07-02-develop/small2.png)
+![small](../../../assets/img/develop/2022-07-02-develop/small2.png)
 
 💡 **sub : 아래 첨자 요소**
 
 - 아래 첨자 요소. 화학식, 각주 표기, 변수 표기할 때 사용한다.
-  ![sub](../../../assets/img/develop/2022-07-02-develop/sub.png)
-  ![sub2](../../../assets/img/develop/2022-07-02-develop/sub2.png)
+
+```html
+<p>
+  Almost every developer's favorite molecule is C<sub>8</sub>H<sub>N</sub>4<sub
+    >O</sub
+  ><sub>2</sub>, also known as "caffeine."
+</p>
+```
+
+![sub](../../../assets/img/develop/2022-07-02-develop/sub.png){:width="500"}
 
 💡 **sup : 위 첨자 요소**
 
@@ -294,7 +394,7 @@ IIIII
 </p>
 ```
 
-![sup2](../../../assets/img/develop/2022-07-02-develop/sup2.png)
+![sup](../../../assets/img/develop/2022-07-02-develop/sup.png){:width="100"}
 
 ---
 
@@ -307,8 +407,10 @@ IIIII
 💡 **ins**
 
 - 문서에 추가된 텍스트의 범위를 나타낸다.**]** → **세트처럼 쓰이기도 함**
+
   - cite: 변경점에 대해 기술할 때 사용한다.
   - datetime: 변경이 발생한 일시에 대해 기술할 때 사용한다.
+
   ```html
   <blockquote>
     There is <del>nothing</del>
@@ -316,19 +418,23 @@ IIIII
     good or bad, but <del>thinking</del> <ins>running it</ins>
   </blockquote>
   ```
-  ![ins](../../../assets/img/develop/2022-07-02-develop/ins_del_1.png)
+
+  ![ins](../../../assets/img/develop/2022-07-02-develop/ins_del.png){:width="500"}
 
 💡 **code : 인라인 코드 요소**
 
 - 짧은 코드 조각을 나타내는 스타일을 사용하여 자신의 콘텐츠를 표시할 때 사용한다. (인라인 요소, 고정폭 글씨체)
+
   - 여러 줄의 코드를 나타내려면 **code** 요소가 아닌 **pre** 요소를 사용할 것
+
   ```html
   <p>
     The <code>push()</code> method adds one or more elements to the end of an
     array and returns the new length of the array.
   </p>
   ```
-  ![code](../../../assets/img/develop/2022-07-02-develop/code_1.png)
+
+  ![code](../../../assets/img/develop/2022-07-02-develop/code.png)
 
 💡 **kbd : 키보드 입력 요소**
 
@@ -339,7 +445,7 @@ IIIII
     an MDN page.
   </p>
   ```
-  ![kbd_2](../../../assets/img/develop/2022-07-02-develop/kbd_2.png)
+  ![kbd](../../../assets/img/develop/2022-07-02-develop/kbd.png){:width="500"}
 
 ---
 
@@ -378,7 +484,7 @@ IIIII
 </ul>
 ```
 
-![a_1](../../../assets/img/develop/2022-07-02-develop/a_1.png>)
+![a](../../../assets/img/develop/2022-07-02-develop/a.png){:width="300"}
 
 ---
 
@@ -387,11 +493,14 @@ IIIII
 💡 **엔티티(Entity)**
 
 - HTML에서 문자 **<**,**>**,**”**,**&** 는 예약어(특수 문자)로 구문 자체의 일부로 인식된다.
+
   따라서 다음과 같은 명령어로 엔티티를 표현해야 한다.
-  ![특수 문자를 표현할 때 사용되는 문자 참조 코드](../../../assets/img/develop/2022-07-02-develop/entity_1.png)
+  ![특수 문자를 표현할 때 사용되는 문자 참조 코드](../../../assets/img/develop/2022-07-02-develop/entity_1.png){:width="700"}
+
   특수 문자를 표현할 때 사용되는 문자 참조 코드 +**α 공백: &nbsp;**
-  ![entity_code](../../../assets/img/develop/2022-07-02-develop/entity_2.png)
-  ![entity_result](../../../assets/img/develop/2022-07-02-develop/entity_3.png)
+  ![entity_code](../../../assets/img/develop/2022-07-02-develop/entity_2.png){:width="700"}
+
+  ![entity_result](../../../assets/img/develop/2022-07-02-develop/entity_3.png){:width="400"}
 
 ---
 
