@@ -6,5 +6,5 @@ slug: japanesenews
 sidebar: true
 order: 2
 description: >
-  일본 뉴스<br>
+  내가 본 일본 뉴스<br>
 ---
