@@ -10,7 +10,7 @@ image:
   path: ../../../assets/img/htmllogo.png
 ---
 
-# 텍스트 요소
+# [HTML] 텍스트 요소
 
 ## VScode 단축키 + HTML 요소들
 

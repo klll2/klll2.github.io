@@ -12,7 +12,9 @@ image:
 
 # [TS] 기본 타입
 
-## Type Annotation
+프로그램이 유용하려면 숫자, 문자열, 구조체, 불리언 값과 같은 간단한 데이터 단위가 필요하다. **TypeScript**는 **JavaScript**와 거의 동일한 데이터 타입을 지원하며, 열거 타입을 사용하여 더 편리하게 사용할 수 있다.
+
+## Type Annotation 구조
 
 ```tsx
 /*
@@ -401,3 +403,7 @@ function voidFunc() {} // 타입 추론으로 TypeScript에서 알아서 void로
 - **TypeScript에서 타입 추론을 통해 알아서 추론해주므로 타입 추론에 위임하자**
 
 ---
+
+### 관련 링크
+
+[https://typescript-kr.github.io/pages/basic-types.html](https://typescript-kr.github.io/pages/basic-types.html)
