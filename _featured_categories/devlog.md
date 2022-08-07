@@ -2,9 +2,10 @@
 layout: list
 type: category
 title: Dev. Log
-slug: dev_log
+slug: devlog
 sidebar: true
 order: 3
 description: >
-  내가 한 개발 공부<br>
+  개발 공부의 흔적을 기록합니다.<br>
+  Record traces of development studies.
 ---

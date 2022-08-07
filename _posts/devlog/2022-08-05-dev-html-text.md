@@ -3,13 +3,15 @@ layout: post
 title: "[HTML] 텍스트 요소"
 subtitle: "[HTML] 텍스트 요소"
 date: 2022-08-05 00:10
-tag: [HTML, zerobase, frontend]
+categories:
+  - devlog
+  - Development
+tag: [html, zerobase, frontend]
+image:
+  path: ../../../assets/img/htmllogo.png
 ---
 
 # 텍스트 요소
-
-작성일시: 2022년 8월 5일 오전 0:10
-최종 편집일시: 2022년 8월 5일 오전 1:00
 
 ## VScode 단축키 + HTML 요소들
 
@@ -59,7 +61,7 @@ tag: [HTML, zerobase, frontend]
 <h4>Pterothorax</h4>
 ```
 
-![h1_h6](../../../assets/img/develop/2022-08-05-dev-html-text/h1_h6.png){: height="200"}
+![h1_h6](../../assets/img/develop/2022-08-05-dev-html-text/h1_h6.png){: height="200"}
 
 ## 본문 - p
 
@@ -81,7 +83,7 @@ tag: [HTML, zerobase, frontend]
 </p>
 ```
 
-![p](../../../assets/img/develop/2022-08-05-dev-html-text/p.png)
+![p](../../assets/img/develop/2022-08-05-dev-html-text/p.png)
 
 ## 본문 - br
 
@@ -103,7 +105,7 @@ tag: [HTML, zerobase, frontend]
 </p>
 ```
 
-![b](../../../assets/img/develop/2022-08-05-dev-html-text/br.png)
+![b](../../assets/img/develop/2022-08-05-dev-html-text/br.png)
 
 ## 본문 - blockquote, q
 
@@ -127,7 +129,7 @@ tag: [HTML, zerobase, frontend]
   </figure>
   ```
 
-  ![blockquote](../../../assets/img/develop/2022-08-05-dev-html-text/blockquote.png)
+  ![blockquote](../../assets/img/develop/2022-08-05-dev-html-text/blockquote.png)
 
 💡 **q : 인라인 인용문 요소**
 
@@ -136,7 +138,7 @@ tag: [HTML, zerobase, frontend]
     ```html
     <q>이건 나는 게 아냐, 아주 멋있게 떨어지는 거지</q>
     ```
-    ![q.PNG](../../../assets/img/develop/2022-08-05-dev-html-text/q.png)
+    ![q.PNG](../../assets/img/develop/2022-08-05-dev-html-text/q.png)
 
 💡 **공통**
 
@@ -161,7 +163,7 @@ tag: [HTML, zerobase, frontend]
 </figure>
 ```
 
-![cite](../../../assets/img/develop/2022-08-05-dev-html-text/cite.png)
+![cite](../../assets/img/develop/2022-08-05-dev-html-text/cite.png)
 
 ## 본문 - pre
 
@@ -179,7 +181,7 @@ IIIII
 <p>IIIII</p>
 ```
 
-![pre](../../../assets/img/develop/2022-08-05-dev-html-text/pre2.png){: width="100" height="100"}
+![pre](../../assets/img/develop/2022-08-05-dev-html-text/pre2.png){: width="100" height="100"}
 
 ---
 
@@ -197,7 +199,7 @@ IIIII
 </figure>
 ```
 
-![figure](../../../assets/img/jslogo.jpeg){: width="300"}
+![figure](../../assets/img/jslogo.jpeg){: width="300"}
 
 ## 본문 - hr
 
@@ -214,7 +216,7 @@ IIIII
 <p>§2: The second rule of Fight Club is: Always bring cupcakes.</p>
 ```
 
-![hr](../../../assets/img/develop/2022-08-05-dev-html-text/hr.png)
+![hr](../../assets/img/develop/2022-08-05-dev-html-text/hr.png)
 
 ## 본문 - abbr, address, cite, bdo
 
@@ -229,7 +231,7 @@ IIIII
     <abbr title="Hyper Text Markup Language">HTML</abbr>
   </p>
   ```
-  ![abbr](../../../assets/img/develop/2022-08-05-dev-html-text/abbr2.png){: width="200"}
+  ![abbr](../../assets/img/develop/2022-08-05-dev-html-text/abbr2.png){: width="200"}
 
 💡 **address**
 
@@ -252,7 +254,7 @@ IIIII
   </address>
   ```
 
-  ![address](../../../assets/img/develop/2022-08-05-dev-html-text/address1.png){: width="400"}
+  ![address](../../assets/img/develop/2022-08-05-dev-html-text/address1.png){: width="400"}
 
 💡 **cite**
 
@@ -277,7 +279,7 @@ IIIII
   </figure>
   ```
 
-  ![cite](../../../assets/img/develop/2022-08-05-dev-html-text/cite2.png){:width="500"}
+  ![cite](../../assets/img/develop/2022-08-05-dev-html-text/cite2.png){:width="500"}
 
 💡 **bdo : 양방향 텍스트 재정의 요소**
 
@@ -290,7 +292,7 @@ IIIII
   <p><bdo dir="rtl">이 글은 오른쪽에서 왼쪽으로 작성합니다.</bdo></p>
   ```
 
-  ![bdo](../../../assets/img/develop/2022-08-05-dev-html-text/bdo.png){:width="400"}
+  ![bdo](../../assets/img/develop/2022-08-05-dev-html-text/bdo.png){:width="400"}
 
 ---
 
@@ -329,7 +331,7 @@ IIIII
 </p>
 ```
 
-![i](../../../assets/img/develop/2022-08-05-dev-html-text/i.png){:width="500"}
+![i](../../assets/img/develop/2022-08-05-dev-html-text/i.png){:width="500"}
 
 → 이를 통해 Iron Man이 ‘철남자’ 가 아닌 고유 명사로서 **유저가 받아들이기 쉬워진다**.
 
@@ -348,7 +350,7 @@ IIIII
 </p>
 ```
 
-![mark](../../../assets/img/develop/2022-08-05-dev-html-text/mark.png){:width="500"}
+![mark](../../assets/img/develop/2022-08-05-dev-html-text/mark.png){:width="500"}
 
 💡 **small : 덧붙임 글 요소**
 
@@ -368,7 +370,7 @@ IIIII
 </p>
 ```
 
-![small](../../../assets/img/develop/2022-08-05-dev-html-text/small2.png)
+![small](../../assets/img/develop/2022-08-05-dev-html-text/small2.png)
 
 💡 **sub : 아래 첨자 요소**
 
@@ -382,7 +384,7 @@ IIIII
 </p>
 ```
 
-![sub](../../../assets/img/develop/2022-08-05-dev-html-text/sub.png){:width="500"}
+![sub](../../assets/img/develop/2022-08-05-dev-html-text/sub.png){:width="500"}
 
 💡 **sup : 위 첨자 요소**
 
@@ -394,7 +396,7 @@ IIIII
 </p>
 ```
 
-![sup](../../../assets/img/develop/2022-08-05-dev-html-text/sup.png){:width="100"}
+![sup](../../assets/img/develop/2022-08-05-dev-html-text/sup.png){:width="100"}
 
 ---
 
@@ -419,7 +421,7 @@ IIIII
   </blockquote>
   ```
 
-  ![ins](../../../assets/img/develop/2022-08-05-dev-html-text/ins_del.png){:width="500"}
+  ![ins](../../assets/img/develop/2022-08-05-dev-html-text/ins_del.png){:width="500"}
 
 💡 **code : 인라인 코드 요소**
 
@@ -434,7 +436,7 @@ IIIII
   </p>
   ```
 
-  ![code](../../../assets/img/develop/2022-08-05-dev-html-text/code.png)
+  ![code](../../assets/img/develop/2022-08-05-dev-html-text/code.png)
 
 💡 **kbd : 키보드 입력 요소**
 
@@ -445,7 +447,7 @@ IIIII
     an MDN page.
   </p>
   ```
-  ![kbd](../../../assets/img/develop/2022-08-05-dev-html-text/kbd.png){:width="500"}
+  ![kbd](../../assets/img/develop/2022-08-05-dev-html-text/kbd.png){:width="500"}
 
 ---
 
@@ -484,7 +486,7 @@ IIIII
 </ul>
 ```
 
-![a](../../../assets/img/develop/2022-08-05-dev-html-text/a.png){:width="300"}
+![a](../../assets/img/develop/2022-08-05-dev-html-text/a.png){:width="300"}
 
 ---
 
@@ -495,12 +497,12 @@ IIIII
 - HTML에서 문자 **<**,**>**,**”**,**&** 는 예약어(특수 문자)로 구문 자체의 일부로 인식된다.
 
   따라서 다음과 같은 명령어로 엔티티를 표현해야 한다.
-  ![특수 문자를 표현할 때 사용되는 문자 참조 코드](../../../assets/img/develop/2022-08-05-dev-html-text/entity_1.png){:width="700"}
+  ![특수 문자를 표현할 때 사용되는 문자 참조 코드](../../assets/img/develop/2022-08-05-dev-html-text/entity_1.png){:width="700"}
 
   특수 문자를 표현할 때 사용되는 문자 참조 코드 +**α 공백: &nbsp;**
-  ![entity_code](../../../assets/img/develop/2022-08-05-dev-html-text/entity_2.png){:width="700"}
+  ![entity_code](../../assets/img/develop/2022-08-05-dev-html-text/entity_2.png){:width="700"}
 
-  ![entity_result](../../../assets/img/develop/2022-08-05-dev-html-text/entity_3.png){:width="400"}
+  ![entity_result](../../assets/img/develop/2022-08-05-dev-html-text/entity_3.png){:width="400"}
 
 ---
 

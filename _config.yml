@@ -474,6 +474,6 @@ jekyll_compose:
 # jekyll-feed settings
 feed:
   categories:
-    - dev_log
-    - Japanese_News
-    - Book_Reports
+    - Life
+    - Dev Log
+    - Japanese News

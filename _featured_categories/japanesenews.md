@@ -1,10 +1,11 @@
 ---
 layout: list
 type: category
-title: Japanaese News
+title: Japanese News
 slug: japanesenews
 sidebar: true
-order: 2
+order: 4
 description: >
-  내가 본 일본 뉴스<br>
+  일본 뉴스를 기록합니다.<br>
+  Record Japanese news.
 ---
