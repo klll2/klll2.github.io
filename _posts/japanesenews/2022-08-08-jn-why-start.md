@@ -14,7 +14,7 @@ image:
 
 작년 12월인 2021년, 드디어 JLPT N1 취득에 성공했다!
 
-![jlpt_n1_result](../../assets/img/japanese_news/jlpt_n1_result.png)
+![jlpt_n1_result](../../assets/img/japanese_news/jlpt_n1_result.png){: width="500"}
 
 하지만, 기쁨도 잠시… 앞으로의 공부를 어떻게 해야 할지에 대한 막막함이 다가왔다..
 
