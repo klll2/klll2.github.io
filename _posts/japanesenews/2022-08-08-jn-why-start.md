@@ -44,7 +44,7 @@ image:
 
 유튜브의 **ANNnewsCH 채널**의 스트리밍을 **매일** 시청하며 일본 사회 이슈 수집과 청해 능력을 향상시킬 것이다.
 
-![annnewslogo](../../assets/img/japanese_news/annnewslogo.png){:width="200"}
+![annnewslogo](../../assets/img/japanese_news/annnewslogo.png){:width="400"}
 
 ---
 
