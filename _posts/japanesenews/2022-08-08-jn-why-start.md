@@ -14,7 +14,7 @@ image:
 
 작년 12월인 2021년, 드디어 JLPT N1 취득에 성공했다!
 
-![jlpt_n1_result](../../assets/img/japanese_news/jlpt_n1_result.png){:width="200"}
+![jlpt_n1_result](../../assets/img/japanese_news/jlpt_n1_result.png)
 
 하지만, 기쁨도 잠시… 앞으로의 공부를 어떻게 해야 할지에 대한 막막함이 다가왔다..
 
@@ -44,7 +44,7 @@ image:
 
 유튜브의 **ANNnewsCH 채널**의 스트리밍을 **매일** 시청하며 일본 사회 이슈 수집과 청해 능력을 향상시킬 것이다.
 
-![annnewslogo](../../assets/img/japanese_news/annnewslogo.png)
+![annnewslogo](../../assets/img/japanese_news/annnewslogo.png){:width="200"}
 
 ---
 
