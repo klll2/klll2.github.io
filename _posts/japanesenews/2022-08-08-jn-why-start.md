@@ -14,7 +14,7 @@ image:
 
 작년 12월인 2021년, 드디어 JLPT N1 취득에 성공했다!
 
-![jlpt_n1_result](../../assets/img/japanese_news/jlpt_n1_result.png){:width="300"}
+![jlpt_n1_result](../../assets/img/japanese_news/jlpt_n1_result.png){:width="200"}
 
 하지만, 기쁨도 잠시… 앞으로의 공부를 어떻게 해야 할지에 대한 막막함이 다가왔다..
 
@@ -36,7 +36,7 @@ image:
 
 이전부터 꾸준히 Hellotalk이나 교내 일본인 유학생들을 통해 교류를 지속해왔었기에 **일본인과의 교류**를 더욱 강화하여 회화 능력을 향상시킬 것이다.
 
-![hellotalklogo](../../assets/img/japanese_news/hellotalklogo.png){:width="300"}
+![hellotalklogo](../../assets/img/japanese_news/hellotalklogo.png){:width="200"}
 
 ---
 
@@ -44,7 +44,7 @@ image:
 
 유튜브의 **ANNnewsCH 채널**의 스트리밍을 **매일** 시청하며 일본 사회 이슈 수집과 청해 능력을 향상시킬 것이다.
 
-![annnewslogo](../../assets/img/japanese_news/annnewslogo.png){:width="300"}
+![annnewslogo](../../assets/img/japanese_news/annnewslogo.png){:width="200"}
 
 ---
 
@@ -52,7 +52,7 @@ image:
 
 현재 가장 부족한 단어 능력을 일본 뉴스 독해를 통해 보완할 것이다. 일본 사회 이슈 수집에도 또한 용이하다. **하루 한 개의 뉴스 기사** 해석을 목표로 포스팅할 것이다.
 
-![izalogo](../../assets/img/japanese_news/izalogo.svg){:width="500"}
+![izalogo](../../assets/img/japanese_news/izalogo.svg){:width="200"}
 
 ---
 
