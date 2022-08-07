@@ -5,7 +5,6 @@ subtitle: "[HTML] 텍스트 요소"
 date: 2022-08-05 00:10
 categories:
   - devlog
-  - Development
 tag: [html, zerobase, frontend]
 image:
   path: ../../../assets/img/htmllogo.png
