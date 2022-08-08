@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "[Japanese News] 뉴스 해석 by 日本語 スタート! 그 계기는?"
-subtitle: "[Japanese News] 뉴스 해석 by 日本語 スタート! 그 계기는?"
+title: "[Japanese News] 1 Day 1 news by 日本語 スタート! 그 계기는?"
+subtitle: "[Japanese News] 1 Day 1 news by 日本語 スタート! 그 계기는?"
 date: 2022-08-08 01:30
 categories:
   - japanesenews
@@ -10,7 +10,7 @@ image:
   path: ../../../assets/img/japanese_news/japan.webp
 ---
 
-# 뉴스 해석 by 日本語 スタート! 그 계기는?
+# 1 Day 1 News by 日本語 スタート! 그 계기는?
 
 작년 12월인 2021년, 드디어 JLPT N1 취득에 성공했다!
 
