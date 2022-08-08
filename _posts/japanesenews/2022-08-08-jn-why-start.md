@@ -10,7 +10,7 @@ image:
   path: ../../../assets/img/japanese_news/japan.webp
 ---
 
-# 왜 시작했는가?
+# 뉴스 해석 by 日本語 スタート! 그 계기는?
 
 작년 12월인 2021년, 드디어 JLPT N1 취득에 성공했다!
 
