@@ -25,11 +25,11 @@ timezone: Asia/Seoul
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description: >
-  반갑습니다. 개발자를 꿈꾸는 초보 대학생 개발자입니다.
+  반갑습니다. 일본어하는 초보 대학생 개발자입니다.
 
 # A shorter description for the sidebar.
 tagline: >
-  먼저 다가가는 개발자💡
+  일본어하는 개발자💡
 
 # A list of keywords for your blog
 keywords: ["Development", "JavaScript", "React", "Jekyll", "Japanese"]
