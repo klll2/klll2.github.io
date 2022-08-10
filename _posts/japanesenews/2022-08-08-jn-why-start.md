@@ -36,7 +36,7 @@ image:
 
 이전부터 꾸준히 Hellotalk이나 교내 일본인 유학생들을 통해 교류를 지속해왔었기에 **일본인과의 교류**를 더욱 강화하여 회화 능력을 향상시킬 것이다.
 
-![hellotalklogo](../../assets/img/japanese_news/2022-08-08-jn-why-start/hellotalklogo.png){:width="200"}
+[![hellotalklogo](../../assets/img/japanese_news/2022-08-08-jn-why-start/hellotalklogo.png){:width="200"}](https://www.hellotalk.com/)
 
 ---
 
@@ -44,7 +44,7 @@ image:
 
 유튜브의 **ANNnewsCH 채널**의 스트리밍을 **매일** 시청하며 일본 사회 이슈 수집과 청해 능력을 향상시킬 것이다.
 
-![annnewslogo](../../assets/img/japanese_news/2022-08-08-jn-why-start/annnewslogo.png){:width="200"}
+[![annnewslogo](../../assets/img/japanese_news/2022-08-08-jn-why-start/annnewslogo.png){:width="200"}](https://www.youtube.com/user/ANNnewsCH)
 
 ---
 
@@ -52,7 +52,7 @@ image:
 
 현재 가장 부족한 단어 능력을 일본 뉴스 독해를 통해 보완할 것이다. 일본 사회 이슈 수집에도 또한 용이하다. **하루 한 개의 뉴스 기사** 해석을 목표로 포스팅할 것이다.
 
-![izalogo](../../assets/img/japanese_news/2022-08-08-jn-why-start/izalogo.svg){:width="200"}
+[![izalogo](../../assets/img/japanese_news/2022-08-08-jn-why-start/izalogo.svg){:width="200"}](https://www.iza.ne.jp/)
 
 ---
 
