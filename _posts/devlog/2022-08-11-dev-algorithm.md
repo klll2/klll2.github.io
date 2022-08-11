@@ -10,7 +10,7 @@ image:
   path: ../../../assets/img/algorithm/algorithm.jpg
 ---
 
-# [Algorithm] 기본 수학 이론
+# [알고리즘] 기본 수학 이론
 
 ## 알고리즘 복잡도 (시간 복잡도)
 
