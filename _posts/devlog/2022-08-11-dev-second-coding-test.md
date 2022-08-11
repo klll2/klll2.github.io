@@ -18,7 +18,7 @@ image:
 
 이전보다 더 열심히 준비한 결과!
 
-![second-coding-test.png](../../assets/img/develop/2022-08-11-dev-second-coding-test//second-coding-test.png)
+![second-coding-test.png](../../assets/img/develop/2022-08-11-dev-second-coding-test/second-coding-test.png)
 
 이전보다는 만족스러운 결과였다!
 
