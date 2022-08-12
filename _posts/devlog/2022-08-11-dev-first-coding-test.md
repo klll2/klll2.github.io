@@ -38,3 +38,113 @@ image:
 아직 코딩테스트를 볼 기회가 많이 남았기에 여태까지 이상으로 꾸준히 백준 문제 풀이를 동반한 이론 공부를 해야겠다 생각했다.
 
 현재 내게 부족한 점을 분석할 수 있었던 좋은 기회였다. 자만심을 갖지 않고 겸손한 태도로 임해야겠다.
+
+---
+
+## 내 풀이
+
+### 1. StringToAscii
+
+```jsx
+function solution(s) {
+  var answer = [];
+
+  for (let i of s) {
+    answer.push(i.charCodeAt(0));
+  }
+
+  return answer;
+}
+
+let s = "work";
+console.log(solution(s));
+```
+
+### 2. SwitchUpperLowerCase
+
+```jsx
+function solution(s) {
+  var answer = "";
+
+  for (let i of s) {
+    if (i.charCodeAt(0) < 97) {
+      answer += String.fromCharCode(i.charCodeAt(0) + 32);
+    } else {
+      answer += String.fromCharCode(i.charCodeAt(0) - 32);
+    }
+  }
+
+  return answer;
+}
+
+let s = "Naver";
+solution(s);
+```
+
+### 3. MostClosestNumberToZero
+
+```jsx
+function solution(arr) {
+  var answer = 0;
+
+  arr.sort(function (a, b) {
+    if (a > b) return 1;
+    if (a === b) return 0;
+    if (a < b) return -1;
+  });
+
+  answer = arr[0];
+
+  return answer;
+}
+```
+
+### 4. UniqueOccurrencesNumber
+
+```jsx
+function solution(arr) {
+  var answer = true;
+
+  let count = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+  let tmp = [];
+
+  for (let i = 0; i < arr.length; i++) {
+    count[arr[i] - 1]++;
+  }
+
+  for (let i = 0; i < count.length; i++) {
+    if (count[i] != 0 && tmp.includes(count[i])) {
+      answer = false;
+      break;
+    } else {
+      tmp.push(count[i]);
+    }
+  }
+
+  return answer;
+}
+
+let arr = [1, 3, 5, 4, 3, 1, 1];
+console.log(solution(arr));
+```
+
+### 5. Tallest
+
+```jsx
+function solution(ZERO) {
+  var answer = 0;
+
+  let array = [];
+
+  for (let i = 0; i < ZERO.length; i++) {
+    if (array.includes(ZERO[i])) {
+      continue;
+    } else {
+      array.push(ZERO[i]);
+      answer++;
+    }
+  }
+
+  return answer;
+}
+```
