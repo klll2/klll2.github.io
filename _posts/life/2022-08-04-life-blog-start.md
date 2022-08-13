@@ -18,7 +18,7 @@ image:
 
 하지만, 강의를 참고하며 제작하면서도 이해가 전혀 되지 않았고, 내가 원하는 대로 커스텀이 되지 않아 약 반년간 방치(?)해둔 상태였다…!
 
-![before_blog.png](../../assets/img/life/before_blog.png)
+![before_blog.png](../../assets/img/life/2022-08-04-life-blog-start/before_blog.png)
 
 ---
 
@@ -63,7 +63,7 @@ image:
 
 🗂️ **후보 블로그 플랫폼**
 
-<img src="../../assets/img/life/naverlogo.png" alt="naver_logo" width="30px" /> **네이버 블로그**
+<img src="../../assets/img/life/2022-08-04-life-blog-start/naverlogo.png" alt="naver_logo" width="30px" /> **네이버 블로그**
 
 ```
 장점
@@ -76,7 +76,7 @@ image:
 - 블로그 이전 등을 위한 데이터 내보내기 기능 미지원
 ```
 
-<img src="../../assets/img/life/tistorylogo.png" alt="tistory_logo" width="30px" /> **티스토리**
+<img src="../../assets/img/life/2022-08-04-life-blog-start/tistorylogo.png" alt="tistory_logo" width="30px" /> **티스토리**
 
 ```
 장점
@@ -87,7 +87,7 @@ image:
 - 정형화된 레이아웃과 테마
 ```
 
-<img src="../../assets/img/life/veloglogo.png" alt="velog_logo" width="30px" /> **velog**
+<img src="../../assets/img/life/2022-08-04-life-blog-start/veloglogo.png" alt="velog_logo" width="30px" /> **velog**
 
 ```
 장점
