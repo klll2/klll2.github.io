@@ -53,6 +53,8 @@ Document Object Model의 약자로 XML이나 HTML 문서에 접근하기 위한 
 - **[innerText](https://developer.mozilla.org/ko/docs/Web/API/Node/innerText)**
 - **[innerHTML](https://developer.mozilla.org/ko/docs/Web/API/Element/innerHTML)**
 
+### 더 자세하게 보고 싶다면?
+[DOM이란?](https://devyuminkim.github.io/devlog/dev-js-dom.html)
 ---
 
 **이제 본격적으로 DOM 활용 예제를 작성해 보도록 하겠다.**
