@@ -7,5 +7,6 @@ sidebar: true
 order: 2
 description: >
   일상을 기록합니다.<br>
-  Record my daily life.
+  Record my daily life.<br>
+  日常を残します。
 ---
