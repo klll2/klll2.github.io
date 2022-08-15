@@ -106,12 +106,12 @@ let wints: number = 0;
 let defeatts: number = 0;
 let drawts: number = 0;
 
-function playts(num) {
-  if (num == 1) {
+function playts(value) {
+  if (value == 1) {
     playerStateCharts
    = "가위";
     playerStatets = 1;
-  } else if (num == 2) {
+  } else if (value == 2) {
     playerStateCharts = "바위";
     playerStatets = 2;
   } else {
@@ -169,18 +169,18 @@ function showResultts() {
   if (resultts == 0) {
     drawts++;
     alert("당신 : " + playerStateCharts + "\n컴퓨터 : " + comStateCharts + "\n\n비겼습니다.");
-    alert("현재 전적\n승 : " + wints + "\n패 : " + defeatts + "\n무 : " + drawts + "\n\n승률 : " + getWinRatets() + "%");
+    alert("전적\n승 : " + wints + "\n패 : " + defeatts + "\n무 : " + drawts + "\n\n승률 : " + getWinRatets() + "%");
   } else if (resultts == 1) {
     wints++;
     alert("당신 : " + playerStateCharts + "\n컴퓨터 : " + comStateCharts + "\n\n이겼습니다!");
-    alert("현재 전적\n승 : " + wints + "\n패 : " + defeatts + "\n무 : " + drawts + "\n\n승률 : " + getWinRatets() + "%");
+    alert("전적\n승 : " + wints + "\n패 : " + defeatts + "\n무 : " + drawts + "\n\n승률 : " + getWinRatets() + "%");
   } else if (resultts == -1) {
     defeatts++;
     alert("당신 : " + playerStateCharts + "\n컴퓨터 : " + comStateCharts + "\n\n졌습니다...");
-    alert("현재 전적\n승 : " + wints + "\n패 : " + defeatts + "\n무 : " + drawts + "\n\n승률 : " + getWinRatets() + "%");
+    alert("전적\n승 : " + wints + "\n패 : " + defeatts + "\n무 : " + drawts + "\n\n승률 : " + getWinRatets() + "%");
   } else {
     alert("초기화 되었습니다.");
-    alert("현재 전적\n승 : " + wints + "\n패 : " + defeatts + "\n무 : " + drawts + "\n\n승률 : " + getWinRatets() + "%");
+    alert("전적\n승 : " + wints + "\n패 : " + defeatts + "\n무 : " + drawts + "\n\n승률 : " + getWinRatets() + "%");
   }
 }
 
@@ -220,13 +220,13 @@ var resultts = 0;
 var wints = 0;
 var defeatts = 0;
 var drawts = 0;
-function playts(num) {
-    if (num == 1) {
+function playts(value) {
+    if (value == 1) {
         playerStateCharts
             = "가위";
         playerStatets = 1;
     }
-    else if (num == 2) {
+    else if (value == 2) {
         playerStateCharts = "바위";
         playerStatets = 2;
     }
@@ -288,21 +288,21 @@ function showResultts() {
     if (resultts == 0) {
         drawts++;
         alert("당신 : " + playerStateCharts + "\n컴퓨터 : " + comStateCharts + "\n\n비겼습니다.");
-        alert("현재 전적\n승 : " + wints + "\n패 : " + defeatts + "\n무 : " + drawts + "\n\n승률 : " + getWinRatets() + "%");
+        alert("전적\n승 : " + wints + "\n패 : " + defeatts + "\n무 : " + drawts + "\n\n승률 : " + getWinRatets() + "%");
     }
     else if (resultts == 1) {
         wints++;
         alert("당신 : " + playerStateCharts + "\n컴퓨터 : " + comStateCharts + "\n\n이겼습니다!");
-        alert("현재 전적\n승 : " + wints + "\n패 : " + defeatts + "\n무 : " + drawts + "\n\n승률 : " + getWinRatets() + "%");
+        alert("전적\n승 : " + wints + "\n패 : " + defeatts + "\n무 : " + drawts + "\n\n승률 : " + getWinRatets() + "%");
     }
     else if (resultts == -1) {
         defeatts++;
         alert("당신 : " + playerStateCharts + "\n컴퓨터 : " + comStateCharts + "\n\n졌습니다...");
-        alert("현재 전적\n승 : " + wints + "\n패 : " + defeatts + "\n무 : " + drawts + "\n\n승률 : " + getWinRatets() + "%");
+        alert("전적\n승 : " + wints + "\n패 : " + defeatts + "\n무 : " + drawts + "\n\n승률 : " + getWinRatets() + "%");
     }
     else {
         alert("초기화 되었습니다.");
-        alert("현재 전적\n승 : " + wints + "\n패 : " + defeatts + "\n무 : " + drawts + "\n\n승률 : " + getWinRatets() + "%");
+        alert("전적\n승 : " + wints + "\n패 : " + defeatts + "\n무 : " + drawts + "\n\n승률 : " + getWinRatets() + "%");
     }
 }
 // 승률 계산
