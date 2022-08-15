@@ -67,6 +67,7 @@ Document Object Model의 약자로 XML이나 HTML 문서에 접근하기 위한 
 <head>
   <meta charset="UTF-8">
   <title>가위바위보</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -82,6 +83,10 @@ Document Object Model의 약자로 XML이나 HTML 문서에 접근하기 위한 
 <script src="./use_dom.js"></script>
 
 </html>
+```
+
+```css
+div { margin-bottom: 10px; }
 ```
 
 **TypeScript**로 작동 코드를 구현한 후에 **JavaScript** 코드로 변환해보았다.
@@ -194,6 +199,11 @@ $resetts.addEventListener('click', () => {
   resultts = -2;
   showResultts();
 })
+
+$resetts.addEventListener('click', () => {
+  $resetts.innerHTML = 'reset';
+})
+
 ```
 
 ‘**ctrl** + **shift** + **b**’ ****키를 통해 TypeScript 파일을 JavaScript 파일로 변환할 수 있고, 변환한 코드는 다음과 같다.
@@ -308,6 +318,9 @@ $resetts.addEventListener('click', function () {
     defeatts = 0;
     resultts = -2;
     showResultts();
+});
+$resetts.addEventListener('click', function () {
+    $resetts.innerHTML = 'reset';
 });
 //# sourceMappingURL=use_dom.js.map
 ```
