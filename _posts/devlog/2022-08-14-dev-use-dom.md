@@ -60,6 +60,7 @@ Document Object Model의 약자로 XML이나 HTML 문서에 접근하기 위한 
 
 **이제 본격적으로 DOM 활용 예제를 작성해 보도록 하겠다.**
 
+**main.html** <br>
 ```html
 <!DOCTYPE html>
 <html lang="ko">
@@ -85,12 +86,14 @@ Document Object Model의 약자로 XML이나 HTML 문서에 접근하기 위한 
 </html>
 ```
 
+**style.css** <br>
 ```css
 div { margin-bottom: 10px; }
 ```
 
 **TypeScript**로 작동 코드를 구현한 후에 **JavaScript** 코드로 변환해보았다.
 
+**use_dom.tsx** <br>
 ```tsx
 let playerStateCharts: string = "";
 let playerStatets: number = 0;
@@ -208,6 +211,7 @@ $resetts.addEventListener('click', () => {
 
 ‘**ctrl** + **shift** + **b**’ ****키를 통해 TypeScript 파일을 JavaScript 파일로 변환할 수 있고, 변환한 코드는 다음과 같다.
 
+**use_dom.js** <br>
 ```jsx
 var playerStateCharts = "";
 var playerStatets = 0;
