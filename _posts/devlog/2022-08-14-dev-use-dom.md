@@ -100,11 +100,11 @@ let playerStatets: number = 0;
 let comStateCharts: string = "";
 let comStatets: number = 0;
 
-let resultts = 0;
+let resultts: number = 0;
 
-let wints = 0;
-let defeatts = 0;
-let drawts = 0;
+let wints: number = 0;
+let defeatts: number = 0;
+let drawts: number = 0;
 
 function playts(num) {
   if (num == 1) {
@@ -206,7 +206,6 @@ $resetts.addEventListener('click', () => {
 $resetts.addEventListener('click', () => {
   $resetts.innerHTML = 'reset';
 })
-
 ```
 
 ‘**ctrl** + **shift** + **b**’ ****키를 통해 TypeScript 파일을 JavaScript 파일로 변환할 수 있고, 변환한 코드는 다음과 같다.
