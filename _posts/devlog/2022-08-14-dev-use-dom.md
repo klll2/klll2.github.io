@@ -7,7 +7,7 @@ categories:
   - devlog
 tag: [javascript, typescript, study, zerobase, frontend]
 image:
-  path: ../../../assets/img/tslogo.png
+  path: ../../../assets/img/study.jfif
 ---
 
 # [스터디] DOM을 활용한 가위바위보 구현
