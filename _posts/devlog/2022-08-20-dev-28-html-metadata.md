@@ -138,8 +138,8 @@ image:
 <html>
   <head>
     <style>
-	  p { color: red; }
-	</style>
+      p { color: red; }
+    </style>
   </head>
   <body>
     <p>안녕하세요. 반갑습니다.</p>
