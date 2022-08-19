@@ -136,14 +136,14 @@ image:
 ```html
 <!doctype html>
 <html>
-	<head>
-		<style>
-			p { color: red; }
-		</style>
-	</head>
-	<body>
-		<p>안녕하세요. 반갑습니다.</p>
-	</body>
+  <head>
+    <style>
+	  p { color: red; }
+	</style>
+  </head>
+  <body>
+    <p>안녕하세요. 반갑습니다.</p>
+  </body>
 </html>
 ```
 
@@ -164,7 +164,7 @@ image:
 
 <!-- 내부에서 작성하기 -->
 <script>
-	alert("Hello World!");
+  alert("Hello World!");
 </script>
 ```
 
