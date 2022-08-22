@@ -6,5 +6,6 @@ sidebar: true
 order: 5
 description: >
   블로그의 모든 태그 리스트<br>
+  ブログの全タグリスト<br>
   List of all tags of the blog.
 ---
