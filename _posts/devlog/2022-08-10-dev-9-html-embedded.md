@@ -7,7 +7,7 @@ categories:
   - devlog
 tag: [html, zerobase, frontend]
 image:
-  path: ../../../assets/img/htmllogo.png
+  path: ../../../assets/img/htmllogo.webp
 ---
 
 # [HTML] 임베디드 요소

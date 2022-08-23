@@ -7,7 +7,7 @@ categories:
   - devlog
 tag: [html, zerobase, frontend]
 image:
-  path: ../../../assets/img/htmllogo.png
+  path: ../../../assets/img/htmllogo.webp
 ---
 
 # [HTML] 구조를 나타내는 요소
