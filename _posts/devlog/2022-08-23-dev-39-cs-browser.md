@@ -5,7 +5,7 @@ subtitle: "[CS] Browser"
 date: 2022-08-23 23:35
 categories:
   - devlog
-tag: [cs, zerobase]
+tag: [cs, frontend, zerobase]
 image:
   path: ../../../assets/img/cs.png
 ---

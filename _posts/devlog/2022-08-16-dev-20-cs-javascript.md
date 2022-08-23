@@ -5,7 +5,7 @@ subtitle: "[CS] JavaScript"
 date: 2022-08-16 15:00
 categories:
   - devlog
-tag: [cs, zerobase]
+tag: [cs, frontend, zerobase]
 image:
   path: ../../../assets/img/cs.png
 ---
