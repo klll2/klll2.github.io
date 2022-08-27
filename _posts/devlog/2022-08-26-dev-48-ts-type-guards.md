@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "[TS] 제네릭"
-subtitle: "[TS] 제네릭"
+title: "[TS] 타입 가드"
+subtitle: "[TS] 타입 가드"
 date: 2022-08-26 22:48
 categories:
   - devlog
