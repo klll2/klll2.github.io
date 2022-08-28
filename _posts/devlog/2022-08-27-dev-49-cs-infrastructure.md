@@ -7,7 +7,7 @@ categories:
   - devlog
 tag: [cs, backend, zerobase]
 image:
-  path: ../../../assets/img/cs.png
+  path: ../../../assets/img/cs.jpg
 ---
 
 # [CS] 인프라

@@ -7,7 +7,7 @@ categories:
   - devlog
 tag: [cs, frontend, zerobase]
 image:
-  path: ../../../assets/img/cs.png
+  path: ../../../assets/img/cs.jpg
 ---
 
 # [CS] JavaScript
