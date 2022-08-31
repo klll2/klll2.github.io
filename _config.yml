@@ -42,14 +42,14 @@ logo: /assets/img/me.jpg
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name: YuMin Name
-  email: gimyumin40@gmail.com
+  name: Klll2 Name
+  email: imkyeol@gmail.com
   picture: /assets/img/me.jpg
   social:
     # twitter:
-    instagram: yu._.min_k
-    github: devYuMinKim
-    email: gimyumin40@gmail.com
+    # instagram: 
+    github: klll2
+    email: imkyeol@gmail.com
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -206,7 +206,7 @@ comments:
 # Make sure all variables are set properly. Check below link for detail.
 # https://utteranc.es/
 # utterances:
-#   repo:                "devYuMinKim/devYuMinKim.github.io"
+#   repo:                "klll2/klll2.github.io"
 #   issue-term:          "pathname"
 #   label:               "Comments"
 #   theme:               "github-light"
@@ -215,7 +215,7 @@ comments:
 # Make sure all variables are set properly. Check below link for detail.
 # https://giscus.vercel.app/
 giscus:
-  repo: "devYuMinKim/devYuMinKim.github.io"
+  repo: "klll2/klll2.github.io"
   repo-id: "R_kgDOG3Owtg"
   category: "General"
   category-id: "DIC_kwDOG3Owts4CBNlx"
@@ -478,5 +478,6 @@ jekyll_compose:
 feed:
   categories:
     - Life
-    - Dev Log
-    - Japanese News
+    - Plan
+    - Dev
+    - Japanese
