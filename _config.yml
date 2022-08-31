@@ -19,20 +19,20 @@
 lang: ko-KR, en-US
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title: Create my Color YuMin Kim
+title: Developing my life
 
 timezone: Asia/Seoul
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description: >
-  반갑습니다. 일본어하는 초보 대학생 개발자입니다.
+  Glad to meet U:) I'm going to be a developer in Japan.
 
 # A shorter description for the sidebar.
 tagline: >
-  일본어하는 개발자💡
+  Life Developer 
 
 # A list of keywords for your blog
-keywords: ["Development", "JavaScript", "React", "Jekyll", "Japanese"]
+keywords: ["Development", "Python", "Jekyll", "Japanese"]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
