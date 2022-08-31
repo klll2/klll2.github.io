@@ -1,8 +1,8 @@
 ---
 layout: list
 type: category
-title: Japanese News
-slug: japanesenews
+title: Japanese
+slug: japanese
 sidebar: true
 order: 4
 description: >
