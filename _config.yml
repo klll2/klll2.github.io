@@ -81,6 +81,9 @@ excerpt_separator: <!--more-->
 # theme: jekyll-theme-hydejack
 remote_theme: hydecorp/hydejack@v9
 
+# github에 올릴 때는 theme 주석, remote_theme 주석해제, 로컬서버에 올릴 땐 반대
+#(vs code 다운 후 bundle exes jekyll serve를 cmd 입력 후 서버 어드레스의 주소로 들어가기, 다른건 즉시 반영, _config.yml은 다시 입력 후 실행)
+
 # Customization
 # ----------------------------------------------------------------------------------------
 
