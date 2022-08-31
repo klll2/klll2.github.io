@@ -478,6 +478,5 @@ jekyll_compose:
 feed:
   categories:
     - Life
-    - Plan
     - Dev
     - Japanese
