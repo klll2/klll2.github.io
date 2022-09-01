@@ -64,7 +64,7 @@ author:
 #     url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-# copyright: © 2022.02 by devYuMinKim
+# copyright: © 2022.09 by klll2
 
 # Format of the permalinks
 # permalink:             /blog/:categories/:year-:month-:day-:title/
@@ -88,7 +88,7 @@ remote_theme: hydecorp/hydejack@v9
 # ----------------------------------------------------------------------------------------
 
 # Sidebar image and theme color of the site.
-accent_image: /assets/img/bg/shinjuku-night.jpg
+accent_image: /assets/img/bg/tokyo-skytree.jpg
 accent_color: rgb(38,139,210)
 
 # This is used for the `theme-color` meta tag,
