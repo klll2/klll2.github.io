@@ -1,10 +1,10 @@
 basics:
-  name: "YuMin Kim"
-  label: "Frontend Engineer"
+  name: "klll2"
+  label: "Life developer"
   picture: /assets/img/me.png
-  email: "gimyumin40@gmail.com"
-  phone: "(+82) 10-5696-3862"
-  website: "https://github.com/devYuMinKim"
+  email: "imkyeol@gmail.com"
+  # phone: "(+82) 10-5696-3862"
+  website: "https://github.com/klll2"
   summary: >
     Hello
   # location:
@@ -15,11 +15,11 @@ basics:
   #   region: "California"
   profiles:
     - network: "Github"
-      username: "devYuMinKim"
-      url: "https://github.com/devYuMinKim"
-    - network: "LinkedIn"
-      username: "YuMin Kim"
-      url: "https://www.linkedin.com/in/yumin-kim-2992b8245/"
+      username: "klll2"
+      url: "https://github.com/klll2"
+   # - network: "LinkedIn"
+   #   username: "klll2"
+   #   url: "https://www.linkedin.com/in/yumin-kim-2992b8245/"
 work:
 #   - company: "SAP Labs Korea"
 #     position: "HANA Core Developer"
