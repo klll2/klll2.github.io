@@ -1,10 +1,10 @@
 ---
 layout: tag-list
 type: tag
-title: Life
-slug: life
+title: Plan
+slug: plan
 category: life
 sidebar: false
 description: >
-  일상 포스트들입니다.
+  매일 계획과 일기의 포스트들입니다.
 ---
