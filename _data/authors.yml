@@ -2,19 +2,15 @@
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
 author1:
-  name: YuMin Kim
-  email: gimyumin40@gmail.com
+  name: Klll2
+  email: imkyeol@gmail.com
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about: |
-    연구와 공부를 즐기는 프론트엔드 개발자🧑‍💻<br>
-    아직은 부족하지만 매력적인 개발자를 꿈꾸는 초보 개발자 입니다.👨‍💻<br>
-    언제나 긍정적인 마인드로, 스스로 성장하는 프론트엔드 개발자 입니다.🔥<br><br>
-
-    研究と勉強を楽しむフロントエンドエンジニア🧑‍💻<br>
-    まだまだですが、魅力的な開発者を目指す初心者エンジニアです。👨‍💻<br>
-    常に肯定的なマインド、自ら成長するフロントエンドエンジニアです。🔥
+    I always hope and try to develop my life in a perfect way.<br>
+    Every day, I set my plan with the day's goal and feedback about it at the night.<br>
+    My first goal is being a developer in Japan who also can manage a business.<br><br>
 
   # This photo will be used in the about section
   picture:
@@ -29,10 +25,10 @@ author1:
   # Rearrange to change the order in which they appear
   social:
     # twitter:
-    instagram: yu._.min_k
-    github: devYuMinKim
-    email: gimyumin40@gmail.com
-    linkedin: yumin-kim-2992b8245/
+    # instagram: 
+    github: klll2
+    email: imkyeol@gmail.com
+    # linkedin: yumin-kim-2992b8245/
     #stackoverflow:   4294737
     # rss:             https://lazyren.github.io/feed.xml
     # facebook:        <username>
